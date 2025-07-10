@@ -1,82 +1,78 @@
-# Robotic_Arm_Project
-Robotic Arm Project
-Welcome to the Robotic Arm Project repository! This project provides a complete workflow for designing, modeling, and simulating a robotic arm using SolidWorks for CAD modeling and MATLAB for dynamic simulations.
 
-Last Updated
-This README was last updated on July 10, 2025.
+# Robotic Arm Project
 
-Table of Contents
-Overview
+This project involves the complete design and simulation of a 3-DOF robotic arm. The mechanical structure is modeled using **SolidWorks**, while simulation and control design are carried out using **MATLAB** and **Simulink**.
 
-Features
+<p align="center">
+  <img src="https://raw.githubusercontent.com/akumar1807/Robotic_Arm_Project/main/Docs/preview.png" alt="Robotic Arm CAD" width="500"/>
+</p>
 
-Getting Started
+---
 
-CAD Model References
+## 🚀 Project Goals
 
-MATLAB Simulations
+- Design a 3-DOF robotic arm using parametric CAD tools.
+- Perform forward and inverse kinematics simulations.
+- Design joint-level controllers using MATLAB/Simulink.
+- Validate kinematic and dynamic performance in a virtual environment.
 
-Contributing
+---
 
-Credits
+## 📁 Repository Structure
 
-License
+```
+Robotic_Arm_Project/
+│
+├── CAD/                     # SolidWorks part & assembly files
+├── Simulink/                # Simulink models for simulation and control
+├── MATLAB/                  # Scripts for kinematics/dynamics analysis
+├── Docs/                    # Supporting documents and notes
+└── README.md                # This file
+```
 
-Overview
-This repository contains all the resources needed to:
+---
 
-Model a multi-joint robotic arm in SolidWorks
+## 🛠️ Tools Used
 
-Assemble and animate the arm mechanism
+- [SolidWorks](https://www.solidworks.com/) for CAD modeling  
+- [MATLAB](https://www.mathworks.com/products/matlab.html) for kinematic/dynamic analysis  
+- [Simulink](https://www.mathworks.com/products/simulink.html) for simulation and control design
 
-Simulate the arm’s kinematics and dynamics in MATLAB
+---
 
-The goal is to provide a learning platform for students and engineers interested in robotics, mechanical design, and control systems.
+## 📽️ Tutorials and References
 
-Features
-Parametric 3D modeling of a robotic arm in SolidWorks
+### 🔧 CAD Modeling Tutorials
+- [YouTube CAD Tutorial Playlist](https://www.youtube.com/watch?v=g8at0yX8vcg&list=PL_gRt21XQOIkdyAbR8tRXAgVEyxzADyul)
+- [Gripper CAD in SolidWorks (Video)](https://www.youtube.com/watch?v=Z4vRkZ8kcTU)
 
-Assembly and motion analysis in CAD
+### 📊 MATLAB + Simulink Tutorials
+- [MATLAB Forward Kinematics Tutorial](https://www.youtube.com/watch?v=Fd7wjZDoh7g)
+- [Robot Manipulation Part 1: Kinematics](https://blogs.mathworks.com/student-lounge/2018/04/11/robot-manipulation-part-1-kinematics/)
+- [Robot Manipulation Part 2: Dynamics and Control](https://blogs.mathworks.com/student-lounge/2018/04/25/robot-manipulation-part-2-dynamics-and-control/)
 
-MATLAB scripts for simulating forward and inverse kinematics, as well as dynamic response
+---
 
-Reference tutorials and links for further learning
+## ✅ Current Progress
 
-Getting Started
-Prerequisites
-SolidWorks (2018 or later recommended)
+- [x] CAD model completed in SolidWorks  
+- [x] Gripper design integrated  
+- [x] Forward kinematics implemented in MATLAB  
+- [ ] Inverse kinematics implementation (WIP)  
+- [ ] Joint-level PID control in Simulink  
+- [ ] End-effector trajectory tracking
 
-MATLAB (with Robotics Toolbox preferred)
+---
 
-Folder Structure
-text
-/CAD
-    SolidWorks part and assembly files
-/MATLAB
-    Simulation scripts and example data
-/README.md
-CAD Model References
-To guide you through the modeling and assembly process, refer to these detailed tutorials:
+## 📌 To Do
 
-Robotic Arm in SolidWorks | 3D Modeling and Assembly (YouTube Playlist)
+- Add DH parameter-based inverse kinematics  
+- Integrate Simscape Multibody with CAD assembly  
+- Perform dynamic simulation using Simulink  
+- Test real-time control loop (optional extension)
 
-SolidWorks Tutorial #306: Gripper (YouTube Video)
+---
 
-These resources cover the step-by-step process of building each component, assembling the robotic arm, and animating its movement.
+## 📬 Contact
 
-MATLAB Simulations
-Add links to your MATLAB simulation scripts or demonstration videos here.
-
-Briefly describe the purpose of each simulation (e.g., forward kinematics, trajectory planning, control algorithms).
-
-Contributing
-Contributions are welcome! If you have improvements, bug fixes, or new simulations to add, please open an issue or submit a pull request.
-
-Credits
-Thanks to all contributors who have helped improve this project. If you contributed code, documentation, or ideas, your efforts are appreciated!
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Happy Building and Simulating!
-
+Feel free to open an [issue](https://github.com/akumar1807/Robotic_Arm_Project/issues) or [reach out](mailto:ayush.kumar@example.com) for queries or collaboration.
