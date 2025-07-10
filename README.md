@@ -11,7 +11,7 @@ This project involves the complete design and simulation of a 3-DOF robotic arm.
 
 ## 🚀 Project Goals
 
-- Design a 3-DOF robotic arm using parametric CAD tools.
+- Design a 4-DOF robotic arm using parametric CAD tools.
 - Perform forward and inverse kinematics simulations.
 - Design joint-level controllers using MATLAB/Simulink.
 - Validate kinematic and dynamic performance in a virtual environment.
